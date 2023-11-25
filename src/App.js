@@ -9,19 +9,19 @@ function App() {
         <div className="navbar-container">
             <div className="navbar-item">
                 <p>
-                  <a href="/" className="styled-link">homepage</a>
+                  <Link to="/" className="styled-link">homepage</Link>
                 </p>
                 <p>
-                  <a href="/about" className="styled-link">about</a>
+                  <Link to="/about" className="styled-link">about</Link>
                 </p>
                 <p>
-                  <a href="/partners" className="styled-link">partners</a>
+                  <Link to="/partners" className="styled-link">partners</Link>
                 </p>
                 <p>
-                  <a href="/initiatives" className="styled-link">initiatives</a>
+                  <Link to="/initiatives" className="styled-link">initiatives</Link>
                 </p>
                 <p>
-                  <a href="/contribute" className="styled-link">contribute</a>
+                  <Link to="/contribute" className="styled-link">contribute</Link>
                 </p>
             </div>
         </div>

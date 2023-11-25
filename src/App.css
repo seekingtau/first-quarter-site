@@ -7,6 +7,7 @@
 
 body {
     font-family: sans-serif;
+    margin-left: 0;
 }
 
 .main-container {
@@ -54,10 +55,20 @@ body {
 .styled-link {
     text-decoration: none;
     color: white;
+    opacity: 70%;
 }
 
 .styled-link.light {
     color: black;
+    opacity: 70%;
+}
+
+.styled-link:hover {
+  opacity: 100%;
+}
+
+.styled-link.light:hover {
+  opacity: 100%;
 }
 
 .hero-container {
