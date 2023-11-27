@@ -1,6 +1,7 @@
 import '../App.css'
 import arrow from '../static/images/arrow.svg';
 import herotextcontribute from '../static/images/hero-text-contribute.svg'
+import fqlogo from '../static/images/ui-asset-logo.svg'
 
 const Contribute = () => {
     return (
@@ -8,7 +9,7 @@ const Contribute = () => {
             <div className="navbar-container">
                 <div className="navbar-item">
                     <p>
-                    <a href="/" className="styled-link light">homepage</a>
+                    <a href="/" className="styled-link light">home</a>
                     </p>
                     <p>
                     <a href="/about" className="styled-link light">about</a>
@@ -24,10 +25,11 @@ const Contribute = () => {
                     </p>
                 </div>
             </div>
+            <img src={fqlogo} class="logo-image contribute"/>
             <div className="hero-container">
                 <img src={herotextcontribute} width="40%"/>
-                <div className="button-container">
-                    <p>partners</p>
+                <div className="button-container contribute">
+                    <p className='button-text'>contribute</p>
                     <img src={arrow} width="16px"/>
                 </div>
             </div>

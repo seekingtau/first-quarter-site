@@ -118,3 +118,69 @@ h1 {
     display: flex;
     flex-direction: column;
 }
+
+.logo-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 20%;
+  width: 50%;
+}
+
+.button-text.about {
+  font-size: 12pt;
+}
+
+@media screen and (max-width: 500px) {
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Space Grotesk', sans-serif;
+    gap: 8px;
+    font-size: 12pt;
+    color: white;
+    margin-right: 32px;
+    margin-bottom: -12px;
+  }
+
+  .button-container.home {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Space Grotesk', sans-serif;
+    gap: 0px;
+    font-size: 12pt;
+    color: white;
+    margin-right: 32px;
+    margin-bottom: -18px;
+  }
+
+  .button-text.home {
+    width: 60px;
+  }
+
+  .button-text.about {
+    font-size: 10pt;
+  }
+
+  .about-blurb-container {
+    width: 50%;
+    margin-right: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 10pt;
+  }
+
+  .logo-image.contribute {
+    filter: brightness(0%)
+  }
+
+  .button-container.contribute {
+    filter: brightness(0%);
+  }
+
+  .button-container.about {
+    gap: 4px
+  }
+}
